@@ -26,6 +26,7 @@ header p {
 .card {
   padding: 20px;
   border: dashed 2px white;
+  width: 33%;
 }
 .card-header {
   position: relative;
@@ -50,5 +51,14 @@ footer {
   text-align: center;
 }
 
+@media screen and (max-width: 992px) {
+  .card {
+    width: 50%;
+  }
+}
+
 @media screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
 }
