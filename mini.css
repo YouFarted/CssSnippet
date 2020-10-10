@@ -10,6 +10,7 @@ main {
   /* Forces elements to the next line if they don't fit */
   flex-wrap: wrap;
   margin-top: 2%;
+  align-items: center;
 }
 header h1 {
   text-align: center;
@@ -42,6 +43,7 @@ pre {
   );
   border-radius: 8px;
   color: white;
+  user-select: all;
 }
 footer {
   color: #e867ed;
