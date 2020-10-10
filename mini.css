@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #333940;
+  font-family: sans-serif;
+}
+main {
+  display: flex;
+  /* Forces elements to the next line if they don't fit */
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+header h1 {
+  text-align: center;
+  color: #e867ed;
+}
+header p {
+  color: white;
+  text-align: center;
+}
+.card p {
+  color: #e867ed;
+}
+.card {
+  padding: 20px;
+  border: dashed 2px white;
+}
+.card-header {
+  position: relative;
+  margin-top: -40px;
+  color: #e867ed;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #333940;
+}
+pre {
+  background-image: linear-gradient(
+    rgba(232, 102, 236, 0.3) 0%,
+    rgba(232, 102, 236, 0.6) 100%
+  );
+  border-radius: 8px;
+  color: white;
+}
+footer {
+  color: #e867ed;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+}
